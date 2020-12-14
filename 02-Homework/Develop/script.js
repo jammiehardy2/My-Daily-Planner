@@ -1,7 +1,7 @@
 var pastTime = document.querySelector("#past");
 var currentTime = document.querySelector("#present");
 var futureTime = document.querySelector ("#future");
-
+var saveText = document.querySelector ("#btn col-1 saveBtn")
 
 $(document).ready(function(){
     function getdate(){
@@ -42,8 +42,14 @@ $(document).ready(function(){
               (today = futureTime)  
             }
         }
+        saveText.addEventListener("click", function(event) {
+    
+
+          localStorage.setItem.on (click saveBtn);
   
    $("button").click(getdate);
+
+
       }
     }
   }
